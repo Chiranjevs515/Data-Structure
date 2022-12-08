@@ -104,6 +104,7 @@ int Rbinsearch(int a[],int l,int h,int key)
     }
     return -1;
 }
+//Get function is used to get the value of any particular index
 int Get(struct array arr,int index)
 {
     if(index>=0 && index<arr.length)
