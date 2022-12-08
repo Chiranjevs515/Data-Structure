@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 int A[10];
+//fibonacci through iteration
 int fib(int n)
 {
     int a=0,b=1,sum=1;
@@ -14,6 +15,7 @@ int fib(int n)
     }
     return sum;
 }
+//fiboncci through recursion
 int fib1(int n)
     {
         if(n<=1)
