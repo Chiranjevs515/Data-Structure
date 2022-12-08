@@ -34,6 +34,7 @@ void Insert(struct array *arr,int index,int x)
         arr->length++;
     }
 }
+//Delete function is used to delete elements in array
 int Delete(struct array *arr,int index)
 {
     int x=0;
