@@ -7,6 +7,7 @@ struct array
     int size;
     int length;
 };
+//Display function is for displaying the elements of array
 void Display(struct array arr){
     cout<<"Elements are:";
     for(int i=0;i<arr.length;i++)
