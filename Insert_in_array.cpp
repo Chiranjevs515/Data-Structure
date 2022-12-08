@@ -21,6 +21,7 @@ void append(struct array *arr,int x)
     if(arr->length<arr->size)
     arr->A[arr->length++]=x;
 }
+//Insert function is used insert elements in array at any particular index
 void Insert(struct array *arr,int index,int x)
 {
     if(index>=0 && index <=arr->length)
