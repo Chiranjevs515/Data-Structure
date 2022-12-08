@@ -112,6 +112,7 @@ int Get(struct array arr,int index)
     
     return -1;
 }
+//Set function is used to change value of element at any particular index 
 void Set(struct array *arr,int index,int x)
 {
     if(index>=0 && index<arr->length)
