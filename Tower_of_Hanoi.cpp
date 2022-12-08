@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//here a,b,c are numbering on tower.
 void TOH(int n,int a,int b,int c)
 {
     if(n>0)
