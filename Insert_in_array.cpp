@@ -70,6 +70,7 @@ int Linearsearch(struct array *arr,int key)
     }
     return -1;
 }
+//Binarysearch function is used to perform binary search
 int Binarysearch(struct array arr,int key)
 {
     int mid,l,h;
