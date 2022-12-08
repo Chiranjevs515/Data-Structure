@@ -15,6 +15,7 @@ void Display(struct array arr){
         cout<<arr.A[i]<<" ";
     }
 }
+//append function is used to add elements in array at the end
 void append(struct array *arr,int x)
 {
     if(arr->length<arr->size)
