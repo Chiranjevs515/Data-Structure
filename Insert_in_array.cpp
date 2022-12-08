@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+//creating array in heap
 struct array
 {
     int A[10];
