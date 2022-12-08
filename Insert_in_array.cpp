@@ -88,6 +88,7 @@ int Binarysearch(struct array arr,int key)
     }
     return -1;
 }
+//Rbinsearch function is used to perform binary search through recursion
 int Rbinsearch(int a[],int l,int h,int key)
 {
     int mid;
