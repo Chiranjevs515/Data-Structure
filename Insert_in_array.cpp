@@ -48,6 +48,7 @@ int Delete(struct array *arr,int index)
     }
     return 0;
 }
+//Swap function is used to swap two elements.
 void Swap(int *x,int *y)
 {
     int temp;
