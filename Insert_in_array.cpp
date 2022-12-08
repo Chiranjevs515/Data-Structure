@@ -56,6 +56,7 @@ void Swap(int *x,int *y)
     *x=*y;
     *y=temp;
 }
+//Linearsearch function is used to perform linear search
 int Linearsearch(struct array *arr,int key)
 {
     for(int i=0;i<arr->length;i++)
