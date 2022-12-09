@@ -155,6 +155,7 @@ float Avg(struct array arr)
 {
     return Sum(arr)/arr.length;
 }
+//Reverse function is used to reverse the elements of array.
 void Reverse(struct array *arr)
 {
     int *B;
