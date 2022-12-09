@@ -140,6 +140,7 @@ int Min(struct array arr)
     }
     return min;
 }
+//Sum function is used to calculate the sum of all elements of array.
 int Sum(struct array arr)
 {
     int sum=0;
