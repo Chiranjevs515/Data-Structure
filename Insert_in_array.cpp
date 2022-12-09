@@ -118,6 +118,7 @@ void Set(struct array *arr,int index,int x)
     if(index>=0 && index<arr->length)
      arr->A[index]=x;
 }
+//Max function is used to fetch the maximum value from array.
 int Max(struct array arr)
 {
     int max=arr.A[0];
