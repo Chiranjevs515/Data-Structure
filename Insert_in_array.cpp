@@ -129,6 +129,7 @@ int Max(struct array arr)
     }
     return max;
 }
+//Min function is used to fetch the minimum valaue from the  array.
 int Min(struct array arr)
 {
     int min=arr.A[0];
