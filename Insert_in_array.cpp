@@ -150,6 +150,7 @@ int Sum(struct array arr)
     }
     return sum;
 }
+//Avg function is used to calculate the average of all terms of array.
 float Avg(struct array arr)
 {
     return Sum(arr)/arr.length;
